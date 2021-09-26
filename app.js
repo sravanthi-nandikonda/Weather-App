@@ -72,7 +72,7 @@ window.addEventListener('load', () => {
   
 
     let api =
-      'http://api.openweathermap.org/data/2.5/weather?q='+ cityname+'&appid=cbb17a41d2981957e3e8b6b180b82ccd';
+      'https://api.openweathermap.org/data/2.5/weather?q='+ cityname+'&appid=cbb17a41d2981957e3e8b6b180b82ccd';
 
 
     fetch(api)
