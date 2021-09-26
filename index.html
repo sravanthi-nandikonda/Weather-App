@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherApp</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row m-5 justify-content-center">
+            <div class="col-md-4" id="wrapper-1">
+                <div id="curr-location">
+
+                </div>
+
+                <div class="center-icon">
+                    <div class="curr-icon"><img id="curr-icon" src="" alt=""></div>
+                    <div id="currloc-temp"></div>
+                </div>
+
+
+                <div id="date-time">
+                    <span id="time"></span>
+                    <span id="date"></span>
+
+                </div>
+
+            </div><!---warapper 1 col-->
+            
+
+            <div class="col-md-4" id="wrapper-2">
+
+             
+                    <div class="icon">
+                            <img id="city-icon" src="">
+                    </div>
+                <div id="humidity" class="humidity"></div>
+                <div id="res-climate" class="res-climate">
+                    <span id="climate-desc" class="desc">
+
+                    </span>
+                    <span id="climate-temp" class="res-temp">
+
+                    </span>
+                </div>
+                <div class="search-container">
+                    <input id="search-city" class="search-city" placeholder="Search any city" type="text">
+                    <button id="searchbtn">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </div>
+                <div id="res-city" class="res-city">
+
+                </div>
+                <div id="country"></div>
+              <!---wrapper 2 1st row-->
+
+                <!--
+                    <div class=" row weather-forecast" id="weather-forecast">
+                            <div class=" col-xs-1 weather-forecast-item">
+                                <div class="day">Tue</div>
+                                <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+                                <div class="temp">25.6&#176; C</div>
+                            </div>
+                    
+                            <div class=" col-xs-1 weather-forecast-item">
+                                <div class="day">Tue</div>
+                                <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+                                <div class="temp">25.6&#176; C</div>
+                            </div>
+                
+                        <div class=" col-xs-1 weather-forecast-item">
+                            <div class="day">Tue</div>
+                            <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+                            <div class="temp">25.6&#176; C</div>
+                        </div>
+            
+                        <div class=" col-xs-1 weather-forecast-item">
+                            <div class="day">Tue</div>
+                            <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+                            <div class="temp">25.6&#176; C</div>
+                        </div>
+        
+                        <div class=" col-xs-1 weather-forecast-item">
+                            <div class="day">Tue</div>
+                            <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+                            <div class="temp">25.6&#176; C</div>
+                        </div>
+    
+                        <div class=" col-xs-1 weather-forecast-item">
+                            <div class="day">Tue</div>
+                            <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+                            <div class="temp">25.6&#176; C</div>
+                        </div>
+                        <div class=" col-xs-1 weather-forecast-item">
+                            <div class="day">Tue</div>
+                            <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+                            <div class="temp">25.6&degC</div>
+                        </div>
+                     </div>         -wrapper 2 2nd row-->
+
+                    </div><!---wrapper 2 col-->
+
+    </div><!---wrapper row-->
+    </div>
+
+    
+    <script src="app.js"></script>
+
+</body>
+
+</html>

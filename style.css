@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;700&display=swap');
+
+body{
+    font-family: 'Raleway', sans-serif;
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/back_our/20190625/ourmid/pngtree-general-weather-sky-image_260454.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.row{
+    font-family:   'Times New Roman', Times, serif;
+}
+
+#wrapper-1,#wrapper-2{
+    height: 500px;
+    
+}
+#wrapper-1{
+    
+  background-image: url("https://cdn.dribbble.com/users/925716/screenshots/3333720/attachments/722376/after_noon.png?compress=1&resize=400x300");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+   
+}
+
+#curr-location{
+    
+    text-align: end;
+    font-size: 2rem;
+    
+}
+.center-icon{
+    align-self: center;
+
+}
+
+#date-time{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    text-align: center;
+}
+#currloc-temp{
+    align-self: center;
+    font-size: 2.5rem;
+    
+}
+.search-container{
+    margin:2rem;
+    text-align: center;
+}
+input[type="text"]
+{
+    margin-right: 0.3rem;
+    border-radius:5px ;
+
+}
+input:focus{
+    outline: none;
+}
+.icon{
+    text-align: center;
+    margin-top: 1rem;
+    display: block;
+}
+#wrapper-2{
+
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.35), rgba(15, 15, 15, 0.35)); 
+   
+     background-repeat: no-repeat; 
+     background-size: cover;
+     text-align: center;
+}
+.desc,.res-temp{
+    margin-top:1rem;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    display: block;
+
+}
+.res-climate{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.res-city{
+    margin-top:1rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+    display: block;
+    margin-bottom: 0.5em;
+}
+#country{
+    font-weight: bold;
+}
+.humidity{
+    font-size: 1.rem;
+    font-weight: bold;
+}
+.weather-forecast{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.weather-forecast-item{
+    height: 40px;
+    width:40px;
+    margin-right: 3px;
+    margin-left: 3px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    border: 1px solid black;
+}
+.w-icon{
+    width: 30px;
+    height: 70px;
+    margin-top: 1px;
+    margin-left: 2px;
+}
+.day{
+    font-size: 0.5;
+    font-weight: bold;
+    
+}
+.temp{
+    font-size: x-small;
+    font-weight: bold;
+}
